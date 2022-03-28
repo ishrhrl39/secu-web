@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+body{
+	margin:0px;
+}
+
+.content .body{
+	padding-top:100px;
+	background-color:#efefef;
+	height:100%;
+	min-height:900px;
+}
+
+#menu{
+	position: fixed;
+	width: 100%;
+	background-color:#fff;
+}
+
+#menu a{
+	text-decoration: none;
+	color:#000;
+}
+
+#menu #title{
+	width:100%;
+	background-color:#0467cb;
+	color:#fff;
+	padding:10px;
+}
+
+#menu #items ul{
+	padding-left:10px;
+}
+
+#menu #items ul li{
+	display: inline-block;
+	padding: 0 25px 5px 25px;
+	cursor: pointer;
+}
+
+#menu #items ul .active{
+	border-bottom:3px solid #0467cb;
+	color:#0467cb;
+}
+
+#menu #items ul .currMenu{
+	color:#0467cb;
+}
+
+#menu #items ul li:hover{
+	color:#0467cb;
+	font-weight: bold;
+}
+
+.card{
+	margin:15px;
+	background-color:#fff;
+	border-radius:10px;
+	padding:10px;
+	color:#797677;
+	font-size:12px;
+}
+
+.table{
+	width:100%;
+	border-collapse: collapse;
+	border:1px solid #EAEAEA;
+}
+
+.table td, .table th{
+	border:1px solid #EAEAEA;
+}
+
+.table th{
+	background-color: #EAEAEA;
+}
+
+.table td{
+	padding:8px;
+}
+
+.form-text{
+	margin:4px;
+	border:1px solid #a4a4a4;
+	border-radius:8px;
+	font-size:11px;
+	padding:7px;
+}
+
+.form-select{
+	margin:4px;
+	border:1px solid #a4a4a4;
+	border-radius:8px;
+	font-size:11px;
+	padding:4px;
+}
+
+.common-btn, .common-sm-btn{
+	cursor: pointer;
+	background-color:#0467cb;
+	color:#fff;
+	padding:15px 15px;
+	border-width:0px;
+	border-radius:8px;
+}
+
+.common-sm-white-btn{
+	cursor: pointer;
+	border-color:#bdbdbd;
+	color:#000;
+	padding:4px 8px;
+	border-width:1px;
+	border-radius:8px;
+	background-color:#fff;
+}
+
+.common-sm-btn{
+	padding:4px 8px;
+}
+
+.form-right{
+	text-align: right;
+}
+
+.text-right{
+	float:right;
+	margin-top:10px;
+	font-size:14px;
+}
+
+.page{
+	text-align: center;
+}
+
+.page ul li{
+	display: inline-block;
+	font-size:12px;
+	border:1px solid #BDBDBD;
+	padding:10px 15px;
+	border-radius:5px;
+	cursor: pointer;
+}
+
+.page ul .currPage{
+	background-color:#fff;
+	border:1px solid #0467cb;;
+	color:	#0467cb;
+	font-weight: bold;
+}
+
+.page ul li:hover{
+	border-color: #0467cb;;
+	color:#0467cb;	
+}
