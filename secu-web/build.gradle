@@ -28,7 +28,6 @@ dependencies {
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation group: 'org.apache.tiles', name: 'tiles-jsp', version: '3.0.5'
-	implementation 'jstl:jstl:1.2'
 	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
 	implementation 'javax.servlet:jstl'
 }
